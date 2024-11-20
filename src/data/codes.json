@@ -1,0 +1,29 @@
+[
+    {
+        "id": 0,
+        "name": "Legacy",
+        "color": "#ff00aa",
+        "children": [],
+        "active": true
+    },
+    {
+        "id": 1,
+        "name": "Modern",
+        "color": "#00aaff",
+        "active": true,
+        "children": [{
+            "id": 3,
+            "active": true,
+            "name": "Bleeding edge",
+            "color": "#00aaff",
+            "children": []
+        }]
+    },
+    {
+        "id": 2,
+        "active": true,
+        "name": "Standard",
+        "color": "aaff00",
+        "children": []
+    }
+]

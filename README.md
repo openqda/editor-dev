@@ -7,8 +7,8 @@ this is a proof of concept for our 1.0 editor
 - [ ] CRUD selections for given codes/subcodes
 - [ ] visualize  overlapping selections
 - [ ] support text-editing and -formatting while ensuring selection indexes
-- [ ] support collaborative coding by leveraging quill's delta format and OT
-- [ ] use quill's module system to provide switchable visualization formats (background highlighting; multiple underlines; etc.)
+- [ ] support collaborative coding by leveraging [quill's delta format](https://quilljs.com/docs/delta) and OT
+- [ ] use quill's [module system](https://quilljs.com/docs/guides/building-a-custom-module) to provide switchable visualization formats (background highlighting; multiple underlines; etc.)
 
 ## non-functional goals:
 
@@ -27,4 +27,9 @@ npm run dev
 ```
 
 then navigate to  http://localhost:5173/ in your browser.
+
+## relevant documentation
+
+* [quill editor v2 documenation](https://quilljs.com/docs/quickstart)
+* [vue 3](https://vuejs.org/api/) (particularly [composition API](https://vuejs.org/guide/introduction.html#api-styles) ) 
 

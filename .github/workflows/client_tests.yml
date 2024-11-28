@@ -37,7 +37,7 @@ jobs:
 
       - name: install node modules
         run: |
-          npm ci
+          npm i
       - name: run unit tests
         run: |
           npm run ci:unit

@@ -37,9 +37,7 @@ jobs:
 
       - name: install node modules
         run: |
-          cd web
           npm ci
       - name: run unit tests
         run: |
-          cd web
           npm run ci:unit

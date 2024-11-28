@@ -35,7 +35,7 @@ export default defineConfig({
         }
     },
     test: {
-        include: ['resources/js/**/*.{test,spec}.?(c|m)[jt]s?(x)'],
+        include: ['src/js/**/*.{test,spec}.?(c|m)[jt]s?(x)'],
         exclude: [
             '**/node_modules/**',
             'public/',

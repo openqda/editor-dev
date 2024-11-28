@@ -33,3 +33,8 @@ then navigate to  http://localhost:5173/ in your browser.
 * [quill editor v2 documenation](https://quilljs.com/docs/quickstart)
 * [vue 3](https://vuejs.org/api/) (particularly [composition API](https://vuejs.org/guide/introduction.html#api-styles) ) 
 
+## Run tests
+
+```shell
+npm run test:unit
+```
